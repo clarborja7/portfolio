@@ -5,99 +5,54 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Clarita Borja — Virtual Assistant Portfolio</title>
   <style>
-  :root {
-  --bg: #ffffff;
-  --accent: #f4e1d2;   /* soft beige */
-  --text: #111;
-  --muted: #666;
-  --maxw: 980px;
-  --radius: 12px;
-  font-family: "Calibri", Arial, sans-serif;
-}
+ body {
+      font-family: Arial, sans-serif;
+      background-color: #fdfdfd;
+      color: #333;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
 
-* { box-sizing: border-box; }
+    header {
+      background-color: #f4e1d2; /* soft beige tone */
+      text-align: center;
+      padding: 2rem;
+    }
 
-body {
-  margin: 0;
-  background: linear-gradient(180deg, #fff 0%, #fbf9f7 100%);
-  color: var(--text);
-  -webkit-font-smoothing: antialiased;
-  line-height: 1.6;
-}
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #444;
+    }
 
-.wrap {
-  max-width: var(--maxw);
-  margin: 28px auto;
-  padding: 20px;
-}
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
 
-header {
-  background-color: var(--accent);
-  text-align: center;
-  padding: 2rem;
-  border-radius: var(--radius);
-}
+    h2 {
+      color: #b5651d; /* warm accent color */
+      border-bottom: 2px solid #eee;
+      padding-bottom: 0.5rem;
+    }
 
-header h1 {
-  margin: 0;
-  font-size: 2.5rem;
-  color: #444;
-}
+    img {
+      max-width: 100%;
+      border-radius: 6px;
+      margin: 1rem 0;
+    }
 
-section {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 1.5rem;
-  background: #fff;
-  border-radius: var(--radius);
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-h2 {
-  color: #b5651d;
-  border-bottom: 2px solid #eee;
-  padding-bottom: 0.5rem;
-}
-
-img {
-  max-width: 100%;
-  border-radius: 6px;
-  margin: 1rem 0;
-}
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  background: var(--accent);
-  margin-top: 2rem;
-}
-
-/* ✨ Contact button */
-button, .contact-btn {
-  background-color: #b5651d;
-  color: #fff;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 6px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-button:hover, .contact-btn:hover {
-  background-color: #8c4713;
-}
-
-/* ✨ Skills badges */
-.skills-list span {
-  display: inline-block;
-  background: var(--accent);
-  color: #333;
-  padding: 6px 12px;
-  margin: 4px;
-  border-radius: 20px;
-  font-size: 0.9rem;
-}
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #f4e1d2;
+      margin-top: 2rem;
+    }
   </style>
 </head>
 <body>
